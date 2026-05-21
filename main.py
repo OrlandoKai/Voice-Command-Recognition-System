@@ -41,10 +41,10 @@ except Exception as exc:  # pragma: no cover
         "PyQt5 is not installed. Install dependencies with: pip install -r requirements.txt"
     ) from exc
 PROJECT_DIR = Path(__file__).resolve().parent
-DEFAULT_WAKE_WORD = "迈克同志"
-DEFAULT_STOP_WORD = "over"
+DEFAULT_WAKE_WORD = "小艾同学"
+DEFAULT_STOP_WORD = "完毕"
 VOICE_RMS_THRESHOLD = 0.01
-SILENCE_SECONDS = 3.0
+SILENCE_SECONDS = 2.0
 
 MIC_OFF = "MIC_OFF"
 WAIT_WAKE = "WAIT_WAKE"

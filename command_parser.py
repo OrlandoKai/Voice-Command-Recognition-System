@@ -56,7 +56,7 @@ class CommandSlots:
 class CommandParser:
     def parse(self, text: str, wake_word: str) -> dict:
         normalized = self._normalize_text(text)
-        wake_word = self._normalize_text(wake_word) or "迈克同志"
+        wake_word = self._normalize_text(wake_word) or "小艾同学"
         command_text = self.strip_wake_word(normalized, wake_word)
         slots = CommandSlots(
             wake_word=wake_word,
