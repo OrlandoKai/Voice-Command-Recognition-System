@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# ASR model files
+*.onnx
+*.pt
+*.pth
+*.bin
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+
+# Runtime outputs
+logs/
+*.log
+dist/
+build/
+*.spec
